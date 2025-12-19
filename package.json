@@ -1,0 +1,28 @@
+{
+  "name": "@aarock/ico-flags",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "repository": "https://github.com/aarock/ico-flags",
+  "author": "",
+  "license": "MIT",
+  "exports": {
+    "./*": "./dist/*.js",
+    "./*.js": "./dist/*.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "react-native-svg": "^15.1"
+  },
+  "devDependencies": {
+    "@types/node": ">=16",
+    "@types/react": ">=18"
+  },
+  "peerDependencies": {
+    "@aarock/ui-core": "*",
+    "react-native": "*",
+    "react": "*"
+  }
+}
